@@ -1,6 +1,9 @@
 public class HolaMundo {
-	public static void main(String[] args) {		
-		System.out.println("Hola Mundo");
-		System.out.println("Hola Mundo v 1.1");
+	public static void main(String[] args) {
+		String naranja = "\033[33m";
+		String azul = "\033[34m";
+
+		System.out.println(naranja + "Hola Mundo");
+		System.out.println(azul + "Aquí estamos haciendo pruebas con git");
 	}
 }
